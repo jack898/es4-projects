@@ -1,0 +1,50 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         53        100.0
+                               LUTGATE	         33        100.0
+                                LUTCCU	         20        100.0
+                                 IOBUF	         15        100.0
+                                PFUREG	         19        100.0
+                                   DSP	          1        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                               counter	          1        37.7
+                                  dddd	          1        41.5
+---------------------------------------------------
+Report for cell dddd
+   Instance path: top/dual_display
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         22        41.5
+                               LUTGATE	         22        66.7
+                                 IOBUF	          6        40.0
+                                   DSP	          1        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                              sevenseg	          1        13.2
+                           sevenseg_U0	          1         9.4
+---------------------------------------------------
+Report for cell sevenseg
+   Instance path: top/dual_display/sevenseg_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7        13.2
+                               LUTGATE	          7        21.2
+---------------------------------------------------
+Report for cell sevenseg_U0
+   Instance path: top/dual_display/sevenseg_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          5         9.4
+                               LUTGATE	          5        15.2
+---------------------------------------------------
+Report for cell counter
+   Instance path: top/dut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         20        37.7
+                                LUTCCU	         20        100.0
+                                PFUREG	         19        100.0

@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/23/2024 15:33:42
+#Project Location: Z:/es4/Lab6; Project name: lab6
+prj_open "Z:/es4/Lab6/lab6.rdf"
+prj_save 
+prj_close
+#Stop recording: 10/23/2024 15:53:05

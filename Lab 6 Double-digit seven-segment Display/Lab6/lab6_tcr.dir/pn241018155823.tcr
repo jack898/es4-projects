@@ -1,0 +1,17 @@
+#Start recording tcl command: 10/18/2024 15:18:17
+#Project Location: Z:/es4/Lab6; Project name: lab6
+prj_open "Z:/es4/Lab6/lab6.rdf"
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_add_source "Z:/es4/Lab6/pinmap.pdc"
+prj_enable_source "Z:/es4/Lab6/pinmap.pdc"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_add_source "Z:/es4/Lab6/source/impl_1/dddd.vhd"
+prj_add_source "Z:/es4/Lab6/source/impl_1/sevenseg.vhd"
+#Stop recording: 10/18/2024 15:58:23

@@ -1,0 +1,53 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  19 of 5280 (0.360%)
+I/O cells:      9
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        10          100.0
+                            FD1P3XZ        19          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         6          100.0
+                               LUT4        32          100.0
+                              MAC16         1          100.0
+                                 OB         9          100.0
+SUB MODULES
+                            counter         1
+                               dddd         1
+                           sevenseg         1
+                        sevenseg_U0         1
+                              TOTAL        82
+----------------------------------------------------------------------
+Report for cell dddd.v1
+Instance Path : dual_display
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 IB         6          100.0
+                               LUT4        22           68.8
+                              MAC16         1          100.0
+SUB MODULES
+                           sevenseg         1
+                        sevenseg_U0         1
+                              TOTAL        31
+----------------------------------------------------------------------
+Report for cell sevenseg.v1
+Instance Path : dual_display.sevenseg_1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7           21.9
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell sevenseg_U0.v1
+Instance Path : dual_display.sevenseg_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         5           15.6
+                              TOTAL         5
+----------------------------------------------------------------------
+Report for cell counter.v1
+Instance Path : dut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        10          100.0
+                            FD1P3XZ        19          100.0
+                              TOTAL        29
