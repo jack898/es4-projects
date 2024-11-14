@@ -1,0 +1,33 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       2.00        100.0
+                                  LUT4	         64        100.0
+                               LUTGATE	         32        100.0
+                                LUTCCU	         32        100.0
+                                 IOREG	          2        100.0
+                                 IOBUF	          5        100.0
+                                PFUREG	         36        100.0
+                                   EBR	          1        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                           fastcounter	          1        37.5
+ramdp(word_size=2,n_words=64,addr_width=6)	          1         0.0
+---------------------------------------------------
+Report for cell ramdp(word_size=2,n_words=64,addr_width=6)
+   Instance path: top/ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       2.00        100.0
+                                 IOREG	          2        100.0
+                                   EBR	          1        100.0
+---------------------------------------------------
+Report for cell fastcounter
+   Instance path: top/fc
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         24        37.5
+                                LUTCCU	         24        75.0
+                                PFUREG	         23        63.9

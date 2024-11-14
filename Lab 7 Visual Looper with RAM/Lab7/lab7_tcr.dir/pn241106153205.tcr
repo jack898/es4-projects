@@ -1,0 +1,8 @@
+#Start recording tcl command: 11/6/2024 15:13:37
+#Project Location: Z:/es4/Lab7; Project name: lab7
+prj_create -name "lab7" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_save 
+prj_add_source "Z:/es4/Lab7/source/impl_1/ramdp.vhd"
+prj_add_source "Z:/es4/Lab7/source/impl_1/top.vhd"
+prj_add_source "Z:/es4/Lab7/source/impl_1/counter.vhd"
+#Stop recording: 11/6/2024 15:32:05

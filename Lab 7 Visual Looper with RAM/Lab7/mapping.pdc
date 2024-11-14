@@ -1,0 +1,6 @@
+ldc_set_location -site {2} [get_ports read_write]
+ldc_set_location -site {3} [get_ports {write_value[0]}]
+ldc_set_location -site {4} [get_ports {write_value[1]}]
+ldc_set_location -site {28} [get_ports {read_value[0]}]
+ldc_set_location -site {38} [get_ports {read_value[1]}]
+ldc_set_location -site {20} [get_ports value1]

@@ -1,0 +1,34 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  36 of 5280 (0.682%)
+I/O cells:      5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              EBR_B         1          100.0
+                               CCU2        16          100.0
+                            FD1P3XZ        36          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         3          100.0
+                              IOL_B         2          100.0
+                               LUT4        18          100.0
+                                 OB         2          100.0
+SUB MODULES
+                        fastcounter         1
+ramdp(word_size=2,n_words=64,addr_width=6)         1
+                              TOTAL        81
+----------------------------------------------------------------------
+Report for cell ramdp(word_size=2,n_words=64,addr_width=6).v1
+Instance Path : ram
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              EBR_B         1          100.0
+                              IOL_B         2          100.0
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell fastcounter.v1
+Instance Path : fc
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        12           75.0
+                            FD1P3XZ        23           63.9
+                              TOTAL        35
