@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/9/2024 17:23:28
+#Project Location: Z:/es4/Lab5; Project name: Lab5
+prj_open "Z:/es4/Lab5/Lab5.rdf"
+prj_add_source "Z:/es4/Lab5/source/impl_1/alu.vhd" "Z:/es4/Lab5/source/impl_1/sevenseg.vhd" "Z:/es4/Lab5/source/impl_1/top.vhd"
+prj_run Synthesis -impl impl_1
+#Stop recording: 10/9/2024 17:26:00

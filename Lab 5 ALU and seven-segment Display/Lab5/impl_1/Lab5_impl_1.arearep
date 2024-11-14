@@ -1,0 +1,28 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  0 of 5280 (0.000%)
+I/O cells:      16
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 IB        10          100.0
+                               LUT4        20          100.0
+                                 OB         7          100.0
+SUB MODULES
+                                alu         1
+                           sevenseg         1
+                              TOTAL        39
+----------------------------------------------------------------------
+Report for cell sevenseg.v1
+Instance Path : seven_seg
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7           35.0
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell alu.v1
+Instance Path : alu_1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 IB         1           10.0
+                               LUT4        13           65.0
+                              TOTAL        14
