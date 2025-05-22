@@ -1,5 +1,5 @@
 ## ES4 Projects
-Some of my projects from 9ES4 - Introduction to Digital Logic](https://www.ece.tufts.edu/es/4/) in Fall 2024 at Tufts University. Each Lab folder contains the official project specification (spec.pdf), my lab report (labXreport.pdf), and the Lattice Radiant project files. (LabX)
+Some of my projects from [ES4 - Introduction to Digital Logic](https://www.ece.tufts.edu/es/4/) in Fall 2024 at Tufts University. Each Lab folder contains the official project specification (spec.pdf), my lab report (labXreport.pdf), and the Lattice Radiant project files. (LabX)
 
 
 ### Technical Details
